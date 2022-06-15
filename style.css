@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: #130f40;
+}
+.container{
+    display: flex;
+    background-color: white;
+    width:70rem;
+    margin: 3rem auto 0 auto;
+    height: 40rem;
+    box-decoration-break: 20px 20px solid black;
+}
+.form{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    /* gap: 50px; */
+    background-color: white;
+    align-items: center;
+    width: 40vw;
+    height: 40rem;
+}
+form{
+    gap: 10px;
+}
+.image-div{
+    width:40rem;
+    height: 40rem;
+    background-image: url('people.jpg');
+    background-size: 570px;  
+}
+input{
+    height: 35px;
+    width: 400px;
+
+}
+#signupButton{
+width: 400px;
+height: 35px;
+border: none;
+cursor: pointer;
+background-color:  #130f40;
+color: white;
+}
+a{
+    text-decoration: none;
+}
