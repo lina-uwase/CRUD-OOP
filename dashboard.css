@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EDEDF5;
+    overflow-x: hidden;
+}
+.container{
+display: flex;
+}
+.heading{
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.105);
+    height: 3rem;
+    width: 81rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tables{
+    margin-left: 20px;
+    margin-top: 50px;
+    gap: 100px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.534);
+}
+a:hover{
+    transition: 0.4s;
+    color: black;
+}
+
+.title{
+    color: rgba(0, 0, 0, 0.288);
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+.profile-name{
+    display: flex;
+    float: left;
+    color: rgba(0, 0, 0, 0.288);
+    font-size: 10px;
+   margin-left: 60rem;
+}
+.profile-photo{
+    background-image: url('01.jpg');
+    background-size: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.menu{
+    background-color: #F5F5F5;
+    width: 15rem;
+    height: 47.5rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    
+}
+.main-content{
+    background: #EAE1E2;
+    width: 75rem;
+    height: 15rem;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.content-one{
+    display: flex;
+    gap: 60px;
+    margin-top: 25px;
+    
+}
+button{
+    cursor: pointer;
+}
+.data{
+   margin-left: 30px;
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+    height: 20px;
+    
+}
+.overview{
+    width: 10rem;
+    height: 7rem;
+    margin-left: 30px;
+    
+
+}
+.overview-button{
+    background-color:#5356AC;
+    margin-top: 50px;
+    width: 12rem;
+    height: 4rem;
+    border: none;
+    color: white;
+
+}
+.investors{
+    width: 10rem;
+    height: 7rem;
+   
+
+}
+.investors-button{
+    background-color: #B8BBE0;
+    margin-top: 50px;
+    width: 12rem;
+    height: 4rem;
+    border: none;
+    color: white;
+
+}
+.stores{
+    width: 10rem;
+    height: 7rem;
+}
+.stores-button{
+    background-color: #E9838C;
+    margin-top: 50px;
+    width: 12rem;
+    height: 4rem;
+    border: none;
+    color: white;
+}
+.expired{
+    width: 10rem;
+    height: 7rem; 
+}
+.expired-button{
+    background-color: #698AEE;
+    margin-top: 50px;
+    width: 12rem;
+    height: 4rem;
+    border: none;
+    color: white;
+}
+.illustration{
+    background-image: url("6269561.jpg");
+    background-size: 15rem;
+    width: 15rem;
+    height: 8rem;
+    padding-top: 5rem;    
+}
+.chart{
+ background-image: url("Dx.png");
+ background-size: 900px;
+    height: 21.2rem;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 75rem;
+}
+
+

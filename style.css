@@ -17,7 +17,7 @@ background-color: #130f40;
     margin-top: 20px;
     display:flex;
     flex-direction: column;
-    /* gap: 50px; */
+    gap: 50px;
     background-color: white;
     align-items: center;
     width: 40vw;

@@ -25,23 +25,20 @@
             <form style="display: flex; flex-direction:column " action="" method="post" enctype="multipart/form-data">
                 <div style="display: flex; flex-direction: column;">
                     <label>Product Name</label>
-                    <input type="text" name="pname">
+                    <input type="text" name="product_Name">
                 </div>
+               
                 <div style="display: flex; flex-direction: column;">
                     <label>Brand</label>
                     <input type="text" name="brand">
                 </div>
                 <div style="display: flex; flex-direction: column;">
                     <label>supplier phone</label>
-                    <input type="number" name="sphone">
+                    <input type="number" name="supplier_phone">
                 </div>
                 <div style="display: flex; flex-direction: column;">
                     <label>supplier</label>
                     <input type="text" name="supplier">
-                </div>
-                <div style="display: flex; flex-direction: column;">
-                    <label>Added date</label>
-                    <input type="time" name="added_date">
                 </div>
                 <div style="display: flex; flex-direction: column; margin-top: 50px; ">
                     <input type="submit" id="signupButton" value="Add data" name="submit">

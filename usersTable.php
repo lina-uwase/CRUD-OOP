@@ -32,15 +32,15 @@ margin-top: 10px;
             <form style="display: flex; flex-direction:column;  " action="" method="post" enctype="multipart/form-data">
                 <div style="display: flex; flex-direction: column;">
                     <label>First Name</label>
-                    <input type="text" name="fname">
+                    <input type="text" name="firstName">
                 </div>
                 <div style="display: flex; flex-direction: column;">
                     <label>Last Name</label>
-                    <input type="text" name="lname">
+                    <input type="text" name="lastName">
                 </div>
                 <div style="display: flex; flex-direction: column;">
                     <label>Mobile number</label>
-                    <input type="number" name="phone">
+                    <input type="number" name="telephone">
                 </div>
                 <div style="display: flex; flex-direction: column;">
                     <label>Gender</label>
@@ -52,7 +52,7 @@ margin-top: 10px;
                 </div>
                 <div style="display: flex; flex-direction: column;">
                     <label>Username</label>
-                    <input type="text" name="uname">
+                    <input type="text" name="username">
                 </div>
                 <div style="display: flex; flex-direction: column;">
                     <label>Email</label>
@@ -61,10 +61,6 @@ margin-top: 10px;
                 <div style="display: flex; flex-direction: column;">
                     <label>Password</label>
                     <input type="password" name="password">
-                </div>
-                <div style="display: flex; flex-direction: column;">
-                    <label>Added Time</label>
-                    <input type="time" name="added_time">
                 </div>
                 <div style="display: flex; flex-direction: column; margin-top: 30px; ">
                     <input type="submit" id="signupButton" value="Add data" name="submit">

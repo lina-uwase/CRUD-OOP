@@ -31,10 +31,6 @@
                     <label>quantity</label>
                     <input type="text" name="quantity">
                 </div>
-                <div style="display: flex; flex-direction: column;">
-                    <label>added date</label>
-                    <input type="date" name="added_date">
-                </div>
                 <div style="display: flex; flex-direction: column; margin-top: 50px; ">
                     <input type="submit" id="signupButton" value="Add data" name="submit">
                 </div>
